@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LDAPMsg", "LDAPMsg\LDAPMsg.vcxproj", "{BFB0DFE7-B299-4065-BB5D-AC09D938E6E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LDAPUtility", "LDAPClientQT\LDAPClientQT.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BFB0DFE7-B299-4065-BB5D-AC09D938E6E9} = {BFB0DFE7-B299-4065-BB5D-AC09D938E6E9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB0DFE7-B299-4065-BB5D-AC09D938E6E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFB0DFE7-B299-4065-BB5D-AC09D938E6E9}.Debug|Win32.Build.0 = Debug|Win32
+		{BFB0DFE7-B299-4065-BB5D-AC09D938E6E9}.Release|Win32.ActiveCfg = Release|Win32
+		{BFB0DFE7-B299-4065-BB5D-AC09D938E6E9}.Release|Win32.Build.0 = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.Build.0 = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.ActiveCfg = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 7c956e89-1046-4cee-8fe0-f8f5d818131e
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+Require : 
+-Visual Studio 2013
+-QT5 (Open source) libtype : shared multi-thread
+-boost 1.53 (In third party)
